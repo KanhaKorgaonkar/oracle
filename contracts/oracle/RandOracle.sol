@@ -99,5 +99,4 @@ contract RandOracle is AccessControl {
     event ProviderAdded(address providerAddress);
     event ProviderRemoved(address providerAddress);
     event ProvidersThresholdChanged(uint threshold);
-    
 }
